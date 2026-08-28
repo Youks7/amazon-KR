@@ -274,7 +274,6 @@ amazon-KR/
 
 ![项目赞赏码](assets/sponsor.jpg)
 
-赞赏完全自愿，不影响项目的 MIT License 使用权限。
 
 ## 边界与说明
 
