@@ -249,6 +249,8 @@ amazon-KR/
 │   ├── resizing.md
 │   ├── suction-hook-profile.md
 │   └── visual-qa.md
+├── assets/
+│   └── sponsor.jpg
 ├── scripts/
 │   └── validate_images.py
 ├── LICENSE
@@ -265,6 +267,14 @@ amazon-KR/
 - [`resizing.md`](references/resizing.md)：不变形的尺寸与比例适配
 - [`visual-qa.md`](references/visual-qa.md)：视觉和技术验收
 - [`suction-hook-profile.md`](references/suction-hook-profile.md)：历史挂钩案例，仅作为可选示例
+
+## 支持项目
+
+如果这个 Skill 对你有帮助，欢迎通过下面的赞赏码支持项目维护：
+
+![项目赞赏码](assets/sponsor.jpg)
+
+赞赏完全自愿，不影响项目的 MIT License 使用权限。
 
 ## 边界与说明
 
