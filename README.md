@@ -251,6 +251,7 @@ amazon-KR/
 │   └── visual-qa.md
 ├── scripts/
 │   └── validate_images.py
+├── LICENSE
 ├── requirements.txt
 └── README.md
 ```
@@ -271,4 +272,9 @@ amazon-KR/
 - 具体图片尺寸来自用户交付要求或当前上传模块，不把历史尺寸当成永久的平台通用规则。
 - 需要判断当前亚马逊合规性时，应核对目标市场、类目和 Amazon/Seller Central 的最新官方要求。
 - 本项目不是 Amazon 官方产品或官方认证工具。
-- 仓库目前未附带开源许可证；公开可见不等于自动授予复制、修改或再分发许可。
+
+## 开源许可证
+
+本项目采用 [MIT License](LICENSE) 开源。你可以使用、复制、修改、合并、发布、分发、再许可和销售本项目或其衍生版本，但必须在副本或主要部分中保留原版权声明和许可证文本。
+
+Copyright © 2026 Youks7
