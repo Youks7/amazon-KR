@@ -1,4 +1,4 @@
-# Amazon A+ Visuals Skill
+# Amazon KR Skill
 
 一个可以直接生产亚马逊图片成品的 Codex Skill。默认交付实际图片文件，而不是只输出策划、提示词或审核意见。它可制作商品主图、副图、白底图、功能信息图、使用与安装图、生活场景、材质细节、款式对比和 A+ 模块，也可完成修改、尺寸适配与视觉验收。
 
@@ -11,7 +11,7 @@
 ## 仓库结构
 
 ```text
-amazon-a-plus-visuals/
+amazon-KR/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
@@ -71,25 +71,25 @@ Skill 可以直接根据参考图复刻亚马逊主图、副图或整套 A+。�
 将仓库作为 Codex Skill 来源使用，或把整个目录放入支持的 Skill 目录。示例请求：
 
 ```text
-Use $amazon-a-plus-visuals to directly produce final Amazon listing and A+ image files from my product sources.
+Use $amazon-kr to directly produce final Amazon listing and A+ image files from my product sources.
 ```
 
 也可以直接要求：
 
 ```text
-使用 $amazon-a-plus-visuals，根据产品图先建立产品事实表。如果材质、表面工艺或颜色信息不足，生成前提醒我确认，然后直接制作并交付1张亚马逊主图和5张副图成品。
+使用 $amazon-kr，根据产品图先建立产品事实表。如果材质、表面工艺或颜色信息不足，生成前提醒我确认，然后直接制作并交付1张亚马逊主图和5张副图成品。
 ```
 
 制作 A+：
 
 ```text
-使用 $amazon-a-plus-visuals，根据这些产品图直接制作一套亚马逊A+图片。使用后台模块截图中的尺寸，最终交付可以直接上传的图片文件，不要只给方案或提示词。
+使用 $amazon-kr，根据这些产品图直接制作一套亚马逊A+图片。使用后台模块截图中的尺寸，最终交付可以直接上传的图片文件，不要只给方案或提示词。
 ```
 
 复刻参考图：
 
 ```text
-使用 $amazon-a-plus-visuals，根据参考图复刻这套亚马逊主图和A+。参考图只控制构图、光影和版式；产品结构、材质、Logo、配件和卖点必须以我的产品资料为准。最终直接交付图片成品。
+使用 $amazon-kr，根据参考图复刻这套亚马逊主图和A+。参考图只控制构图、光影和版式；产品结构、材质、Logo、配件和卖点必须以我的产品资料为准。最终直接交付图片成品。
 ```
 
 ## 图片校验

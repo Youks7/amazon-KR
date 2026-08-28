@@ -1,9 +1,9 @@
 ---
-name: amazon-a-plus-visuals
+name: amazon-kr
 description: Produce final Amazon main images, secondary listing images, and A+ image modules for physical products in any category, including faithful reconstruction from reference designs; also revise, resize, or audit existing assets. Use for white-background product images, infographics, lifestyle scenes, installation or use graphics, material and finish fidelity, comparison modules, and export QA. Do not use for PPC, catalog operations, inventory, or account management.
 ---
 
-# Amazon A+ Visuals
+# Amazon KR
 
 Treat a product truth brief as the constraint system and the image model as a scene generator. A polished image is rejected when the product geometry, scale, material, interaction, included parts, color, branding, or claim is wrong.
 
