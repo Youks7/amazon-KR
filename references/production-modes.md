@@ -1,6 +1,6 @@
 # Production Modes
 
-Choose the branch implied by the request. Unless the user asks only for planning, prompts, or review, every branch ends in rendered image files.
+Choose the branch implied by the request before applying a workflow. Shared authorization, approval, retry, and status rules live in [SKILL.md](../SKILL.md#execution-contract). Creation and revision require rendered files; audit and requested intermediate deliverables use their own completion criteria.
 
 When any branch is driven by a reference image or reference A+ set, also follow [reference-replication.md](reference-replication.md).
 
@@ -21,8 +21,8 @@ Completion: the final main-image file is rendered, visually compared with the au
 Produce a coherent sequence that answers the buyer's highest-value questions. Possible pages include benefit hero, feature detail, dimensions, material close-up, use, installation, compatibility, package contents, comparison, and lifestyle context.
 
 - Put one primary message on each image.
-- Reuse approved product masters across the sequence.
-- Use editable/deterministic typography whenever possible; do not depend on generated text.
+- Reuse QA-passed product masters across the sequence.
+- Prefer precise/editable typography using an available permitted tool. Apply the text verification rule in [SKILL.md](../SKILL.md#production-workflow) if generated text is the only feasible route.
 - Keep copy readable at listing-thumbnail and mobile viewing size.
 - Use supported claims only.
 
@@ -40,9 +40,9 @@ Produce the image assets for the confirmed Basic or Premium A+ modules.
 - Keep important product details and text safe for responsive/mobile crops when the module behavior is known.
 - Render final files at each exact upload size and preserve editable/high-resolution masters when practical.
 
-When the user requests “a set of A+ images” without a module plan, choose a compact evidence-backed sequence, state the assumed module count and dimensions, and produce it. If current upload dimensions cannot be inferred safely, ask for the uploader/module screenshot before final export while continuing product-master and copy preparation.
+When the user requests “a set of A+ images” without a module plan, choose a compact evidence-backed sequence, state the assumed module count and provisional dimensions when a sound basis exists, and proceed with supported preparation. If current upload dimensions cannot be inferred safely, ask for the uploader/module screenshot before final export while continuing product-master and copy preparation.
 
-Completion: every requested A+ module exists at its exact size, the set has been visually reviewed in order, and an upload-ready folder contains only approved finals.
+Completion: every requested A+ module exists at its exact size, the set has been visually reviewed in order, and an upload-ready folder contains only QA-passed finals.
 
 ## Full launch set
 
@@ -52,11 +52,14 @@ If the user requests both listing and A+ assets, create one shared product truth
 
 Replication may apply to a single main image, a secondary-image sequence, an A+ set, or the full launch set. Treat it as an execution method layered onto the relevant production mode, not as a request for analysis only. The reference supplies the visual blueprint; the user's sources supply the product. Deliver rebuilt final files and a short replication note listing any deliberate deviations required for product truth, supported claims, or current upload requirements.
 
-## Revision, resize, and audit
+## Revision, resize, audit, and intermediate deliverables
 
-- Revision ends with corrected image files, not only a defect list.
-- Resize ends with new files at the target dimensions and preserved originals.
-- Audit is read-only when the user asks only for review; return findings and do not mutate assets.
+- **Local revision:** reuse the existing design, facts, and suitable masters. Change the requested region/layer and check it plus affected consistency. Escalate to the substantial-edit workflow only where product geometry, finish, or use must actually be rebuilt. Completion: corrected new files and relevant verification.
+- **Mechanical resize:** use [resizing.md](resizing.md) directly. Do not rebuild the product brief or master solely to change pixels or canvas size. Completion: new files at the target dimensions, preserved originals, and per-file visual/technical checks.
+- **Audit only:** inspect existing assets and return actionable findings, evidence, and limitations. Do not edit, regenerate, or repair assets. Missing source evidence limits a verdict; it need not prevent reporting inspectable defects. Completion: the requested files/issues are accounted for in the report, including unverified aspects.
+- **Planning, copy, or prompts only:** deliver exactly the requested intermediate artifact using available evidence and mark assumptions or gaps. Image generation is not a completion requirement.
+
+A pending module target blocks final export of that module, not source inspection, usable masters, copy, or independent images. If the user requires a preliminary approval, that gate still controls its dependent actions.
 
 ## Delivery structure
 
