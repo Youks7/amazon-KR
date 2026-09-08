@@ -53,9 +53,9 @@ Completion: the final file reads like the reference at thumbnail scale while rem
 ## Secondary-image replication
 
 1. Preserve the reference's information hierarchy and visual rhythm.
-2. Replace every product view with an approved user-product master.
+2. Replace every product view with a QA-passed user-product master.
 3. Rewrite headings, callouts, measurements, and benefits using supported product facts.
-4. Rebuild text, icons, arrows, dimension lines, and cards deterministically.
+4. Prefer precise/editable reconstruction for text, icons, arrows, dimension lines, and cards; follow the available-tool and text verification rules in [SKILL.md](../SKILL.md#production-workflow).
 5. Adapt scenes and human interaction to the user's product mechanics rather than copying an incompatible pose.
 
 ## A+ replication
@@ -64,7 +64,7 @@ Completion: the final file reads like the reference at thumbnail scale while rem
 2. Preserve the reference's grid, pacing, palette, hierarchy, image-to-text balance, and scene language where they suit the user's product.
 3. Replace the reference product and claims module by module; do not force the user's product into a reference message it cannot support.
 4. Rebuild each module at the exact confirmed upload dimensions. One source banner is not stretched across different module ratios.
-5. Reuse the same approved product masters across the set so reference matching does not cause product drift.
+5. Reuse the same QA-passed product masters across the set so reference matching does not cause product drift.
 
 Completion: every requested A+ module has a direct reference counterpart or a documented adaptation, and all final modules form one coherent upload-ready set.
 
@@ -73,6 +73,8 @@ Completion: every requested A+ module has a direct reference counterpart or a do
 Judge two axes separately:
 
 ### Product fidelity — hard gate
+
+For an explicitly requested concept, evaluate authorized transformations against the recorded concept target under [visual-qa.md](visual-qa.md#product-fidelity); unchanged attributes still use actual product evidence. Identify the delivered concept rather than claiming an existing sale variant.
 
 - Geometry, count, parts, labels, logo, color, material, finish, use, and accessories match the user's authoritative sources.
 - No competitor-specific product feature or claim has leaked into the result.

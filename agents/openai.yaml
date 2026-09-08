@@ -1,4 +1,4 @@
 interface:
   display_name: "Amazon KR"
   short_description: "Produce final Amazon listing and A+ product images"
-  default_prompt: "Use $amazon-kr to confirm product facts, then directly produce or reference-replicate my final Amazon main, secondary, or A+ image files."
+  default_prompt: "Use $amazon-kr to produce my Amazon images from supplied product evidence, resolve only blocking gaps, and deliver checked files."

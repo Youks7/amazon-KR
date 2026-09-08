@@ -4,7 +4,7 @@ Read this reference whenever material appearance affects product identity, perce
 
 ## Material specification
 
-Define five fields before rendering or editing:
+Resolve the following fields only where the operation needs to generate or change material appearance. For untouched product pixels or irrelevant/hidden properties, reuse the visible reference and mark the property not applicable rather than requesting a complete specification:
 
 1. Base material.
 2. Surface process or coating.
@@ -12,7 +12,7 @@ Define five fields before rendering or editing:
 4. Direction and scale of texture.
 5. Lighting/reference image used to judge the finish.
 
-If any field is unknown and alternative answers would visibly change the product, use the material reminder in [product-intake.md](product-intake.md) before producing the product master.
+For unresolved consequential gaps, use [product-intake.md](product-intake.md#material-gaps). Existing confirmed values need no repeated confirmation. The cues below are typical aids; actual product evidence controls hue, process, gloss, and texture when it differs.
 
 ## Common finish cues
 
@@ -43,13 +43,13 @@ If any field is unknown and alternative answers would visibly change the product
 
 ### Brass, gold-tone, and PVD finishes
 
-- Confirm whether the product is solid brass, plated, painted, or PVD-coated; these are not interchangeable claims.
+- Establish whether the product is solid brass, plated, painted, or PVD-coated when that distinction is needed for a factual callout or visible reconstruction; these are not interchangeable claims. Unchanged source pixels do not require determining an unseen process.
 - Match warm/cool hue, reflectivity, and brushing direction to the reference.
 - Reject yellow plastic appearance, excessive orange cast, and inconsistent gold across pages.
 
 ### Plastic
 
-- Confirm resin appearance when known: glossy ABS, matte ABS, translucent polycarbonate, acrylic, or soft-touch coating.
+- Use the supported resin appearance: glossy ABS, matte ABS, translucent polycarbonate, acrylic, or soft-touch coating. Do not infer resin chemistry from appearance alone.
 - Preserve realistic wall thickness, molded radii, seams, gates, and texture only where visible in the source.
 - Reject metal-like highlights on ordinary plastic or arbitrary molding seams.
 
@@ -92,4 +92,4 @@ If any field is unknown and alternative answers would visibly change the product
 
 ## Material QA
 
-A material passes only when the base material, process, gloss, texture direction, scale, hue, and reflection behavior match the confirmed brief across every visible instance. Report any part whose material cannot be verified from the supplied evidence.
+For generated or changed material regions, compare visible finish, gloss, texture direction/scale, hue, and reflection with the supported brief and source view. For preserved regions, verify that the original appearance remains intact. Unseen composition/process need not be certified from pixels unless asserted in copy. Report consequential unverifiable properties and use the shared unverified status rather than claiming a material pass.

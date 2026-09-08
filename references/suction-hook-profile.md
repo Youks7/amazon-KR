@@ -8,7 +8,7 @@ This is an optional worked example, not the scope of the Skill. Use it only for 
 - A short neck connects the suction assembly to a normal-width horizontal bracket.
 - The bracket has exactly two U-shaped razor slots.
 - The two outer ends turn upward and can carry rings or cord loops.
-- Keep the suction cup circular. Non-uniform scaling that makes it elliptical is a hard failure.
+- In the historical front-facing master, keep the suction cup circular; reject non-uniform scaling. In an oblique view, a circular face may project as an ellipse. Judge its projection against the source angle rather than forcing it into a circle.
 - Do not lengthen the bracket, add slots, merge the outer hooks into the slots, or redraw the silhouette between pages.
 
 ## Approved use/contact mapping
